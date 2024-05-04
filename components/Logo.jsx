@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Logo() {
   return (
     <Link href='/'>
-      <div className="bg-blue-600 text-slate-300 rounded-full p-2.5 text-xl font-bold">DM</div>
+      <div className="dark:bg-blue-600 bg-orange-300 border-orange-500 dark:border-blue-500 border-[2px] rounded-full p-2 text-xl">DM</div>
     </Link>
   )
 }

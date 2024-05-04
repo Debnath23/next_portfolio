@@ -1,7 +1,9 @@
-import React from 'react'
+import Image from "next/image"
 
-export default function DevImg() {
+export default function DevImg({ containerStyles, imgSrc }) {
   return (
-    <div>DevImg</div>
+    <div className={`${containerStyles}`}>
+      <Image src={imgSrc} fill priority alt="" className="rounded-full" />
+    </div>
   )
 }
