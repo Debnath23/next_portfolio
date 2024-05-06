@@ -21,7 +21,7 @@ const projectData = [
     name: "Authentication Application",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, non.",
-    link: "/",
+    link: "https://github.com/Debnath23/nextauthapp",
     github: "/",
   },
   {
@@ -31,7 +31,7 @@ const projectData = [
     name: "Music School Application",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, non.",
-    link: "/",
+    link: "https://github.com/Debnath23/next_js",
     github: "/",
   },
 ];
