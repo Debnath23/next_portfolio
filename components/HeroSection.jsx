@@ -6,6 +6,7 @@ import { Download, Send } from "lucide-react";
 import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
+// import Resume from '../public/about/Resume.pdf'
 import {
   RiBriefcase4Fill,
   RiTeamFill,
@@ -14,6 +15,11 @@ import {
 } from "react-icons/ri";
 
 export default function HeroSection() {
+
+  // const handleDownload = () => {
+  //   window.open(Resume);
+  // };
+
   return (
     <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom dark:bg-none bg-cover">
       <div className="container mx-auto">
@@ -24,7 +30,7 @@ export default function HeroSection() {
             </div>
             <h1 className="h1 mb-4">Hi, I'am Debnath Mahapatra</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              I belive through technology we can improve our society and
+              I believe through technology we can improve our society and
               planet...
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -33,9 +39,9 @@ export default function HeroSection() {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
+              {/* <Button variant="secondary" className="gap-x-2" >
                 Download CV <Download size={18} />
-              </Button>
+              </Button> */}
             </div>
 
             <Socials
