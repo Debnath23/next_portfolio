@@ -6,7 +6,7 @@ import ProjectCard from "@/components/ProjectCard";
 const projectData = [
   {
     id: 1,
-    image: "/work/3.png",
+    image: "/work/food_delivery.jpg",
     category: "react.js",
     name: "Food Delivery Application",
     description:
@@ -16,23 +16,23 @@ const projectData = [
   },
   {
     id: 2,
-    image: "/work/4.png",
+    image: "/work/authentication.jpg",
     category: "Next.js",
     name: "Authentication Application",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, non.",
-    link: "https://github.com/Debnath23/nextauthapp",
-    github: "/",
+    link: "/",
+    github: "https://github.com/Debnath23/nextauthapp",
   },
   {
     id: 3,
-    image: "/work/1.png",
+    image: "/work/music_school.jpg",
     category: "Next.js",
     name: "Music School Application",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, non.",
-    link: "https://github.com/Debnath23/next_js",
-    github: "/",
+    link: "https://next-js-phi-swart.vercel.app/",
+    github: "https://github.com/Debnath23/next_js",
   },
 ];
 
